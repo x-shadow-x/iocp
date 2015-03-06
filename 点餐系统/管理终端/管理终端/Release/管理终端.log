@@ -1,0 +1,25 @@
+﻿生成启动时间为 2014/5/26 23:45:17。
+     1>项目“C:\Users\Administrator\Desktop\temp\数据库大作业\管理端\管理终端\管理终端\管理终端.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\管理终端.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\管理终端.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Chat.cpp WorkPlatform.cpp "管理终端.cpp" "管理终端Dlg.cpp"
+         Chat.cpp
+         WorkPlatform.cpp
+         管理终端.cpp
+         管理终端Dlg.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\temp\数据库大作业\管理端\管理终端\Release\管理终端.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\Administrator\Desktop\temp\数据库大作业\管理端\管理终端\Release\管理终端.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Desktop\temp\数据库大作业\管理端\管理终端\Release\管理终端.lib" /MACHINE:X86 /SAFESEH "Release\管理终端.res"
+         Release\Chat.obj
+         Release\stdafx.obj
+         Release\WorkPlatform.obj
+         "Release\管理终端.obj"
+         "Release\管理终端Dlg.obj"
+         正在生成代码
+         已完成代码的生成
+         管理终端.vcxproj -> C:\Users\Administrator\Desktop\temp\数据库大作业\管理端\管理终端\Release\管理终端.exe
+     1>已完成生成项目“C:\Users\Administrator\Desktop\temp\数据库大作业\管理端\管理终端\管理终端\管理终端.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:18.08

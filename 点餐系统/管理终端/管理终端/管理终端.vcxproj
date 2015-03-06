@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A6E0AEBD-DF17-4B00-9BBB-BA535FFAB4AE}</ProjectGuid>
+    <RootNamespace>管理终端</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AllBill.h" />
+    <ClInclude Include="Chat.h" />
+    <ClInclude Include="DeptAdd.h" />
+    <ClInclude Include="DeptUpdte.h" />
+    <ClInclude Include="DishesAdd.h" />
+    <ClInclude Include="DishesUpdate.h" />
+    <ClInclude Include="Goods.h" />
+    <ClInclude Include="GoodsAdd.h" />
+    <ClInclude Include="GoodsUpdate.h" />
+    <ClInclude Include="Purchase.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="TableAdd.h" />
+    <ClInclude Include="TableUpdate.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="WorkPlatform.h" />
+    <ClInclude Include="管理终端.h" />
+    <ClInclude Include="管理终端Dlg.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AllBill.cpp" />
+    <ClCompile Include="Chat.cpp" />
+    <ClCompile Include="DeptAdd.cpp" />
+    <ClCompile Include="DeptUpdte.cpp" />
+    <ClCompile Include="DishesAdd.cpp" />
+    <ClCompile Include="DishesUpdate.cpp" />
+    <ClCompile Include="Goods.cpp" />
+    <ClCompile Include="GoodsAdd.cpp" />
+    <ClCompile Include="GoodsUpdate.cpp" />
+    <ClCompile Include="Purchase.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TableAdd.cpp" />
+    <ClCompile Include="TableUpdate.cpp" />
+    <ClCompile Include="WorkPlatform.cpp" />
+    <ClCompile Include="管理终端.cpp" />
+    <ClCompile Include="管理终端Dlg.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="管理终端.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\My.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\allbill_left.bmp" />
+    <Image Include="res\alltable_buttom.bmp" />
+    <Image Include="res\alltable_buttom2.bmp" />
+    <Image Include="res\alltable_right.bmp" />
+    <Image Include="res\alltable_up.bmp" />
+    <Image Include="res\chat_buttom.bmp" />
+    <Image Include="res\chat_left.bmp" />
+    <Image Include="res\chat_light.bmp" />
+    <Image Include="res\chat_middle.bmp" />
+    <Image Include="res\chat_right.bmp" />
+    <Image Include="res\chat_up.bmp" />
+    <Image Include="res\purchase_down.bmp" />
+    <Image Include="res\purchase_left.bmp" />
+    <Image Include="res\purchase_left_up.bmp" />
+    <Image Include="res\purchase_right.bmp" />
+    <Image Include="res\purchase_right_up.bmp" />
+    <Image Include="res\purchase_up.bmp" />
+    <Image Include="res\pureach_middle.bmp" />
+    <Image Include="res\workserver_buttom.bmp" />
+    <Image Include="res\workserver_left.bmp" />
+    <Image Include="res\workserver_middle.bmp" />
+    <Image Include="res\workserver_right.bmp" />
+    <Image Include="res\workserver_up.bmp" />
+    <Image Include="res\x1.bmp" />
+    <Image Include="res\x2.bmp" />
+    <Image Include="res\x3.bmp" />
+    <Image Include="res\登录.bmp" />
+    <Image Include="res\管理终端.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="管理终端.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
